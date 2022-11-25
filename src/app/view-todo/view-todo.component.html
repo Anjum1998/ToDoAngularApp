@@ -1,0 +1,20 @@
+<table class="table table-bordered border-primary">
+    <thead>
+      <tr>
+        
+        <th scope="col">UserID</th>
+        <th scope="col">ID</th>
+        <th scope="col">Title</th>
+        <th scope="col">Completed Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let i of dview">
+        <td>{{i.userId}}</td>
+        <td>{{i.id}}</td>
+        <td>{{i.title}}</td>
+        <td>{{i.completed}}</td>
+      </tr>
+      
+    </tbody>
+</table>
