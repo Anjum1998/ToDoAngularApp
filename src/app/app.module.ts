@@ -8,7 +8,7 @@ import { ViewTodoComponent } from './view-todo/view-todo.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { RouterModule, Routes } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http'
+import { HttpClientModule } from '@angular/common/http';
 const myRoute:Routes=[
   {
     path:"",
